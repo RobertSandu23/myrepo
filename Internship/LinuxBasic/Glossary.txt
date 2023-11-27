@@ -1,0 +1,10 @@
+basic
+
+cd ~ -> home dir
+cd -> change dir  \\//  cd ../  - go back
+ls , ls -a, ls -all, ll -> list dirs files etc
+pwd -> show path
+cat/less -> read files
+vi -> edit files
+
+in home dir : cd ../..  -> root 
