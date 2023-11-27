@@ -1,0 +1,10 @@
+Hello World!
+
+Steps to create Hello World:
+
+1. touch helloworld.txt
+2. vi helloworld.txt
+3. i - to insert
+4. write Hello World!
+5. ESC - to edit insert mode
+6. :wq! - to exit vi editor
