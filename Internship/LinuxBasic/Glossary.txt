@@ -8,3 +8,60 @@ cat/less -> read files
 vi -> edit files
 
 in home dir : cd ../..  -> root 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+VI/VIM COMMANDS
+https://www.warp.dev/terminus/vim-vi-page-up-and-down-controls
+You need to change to the "insert" mode by moving the cursor with i.
+
+To move your cursor:
+
+H = Left, J = Up, K = Down, L = Right
+
+Once you have your cursor positioned you can delete text as follows:
+
+x Deletes the character under the cursor
+X Deletes the character before the cursor
+dw Deletes from the cursor to the next word
+dd Deletes the line the cursor is on.
+
+
+To enter text, you can use one of the text entry modes.
+
+a Adds text to the right of the cursor
+A Adds text to the end of the current line
+i Adds text to the left of the cursor
+I Adds test to the beginin of the current line
+o Opens a new line below the current line and places you in text entry mode
+O Opens a new line Above the current line and places you in text entry mode
+
+To exit Text entry mode, and return to the Command mode, use Esc.
+
+
+To Undo changes: (A student favorite)
+u Undo the last command entered
+U Undo all changes to the ** current line**
+
+
+To Save/Quit: :w Writes (Saves) the file and remains open
+:wq Writes (Saves) the file and exits VI
+:q Quits (Exits) if you've made no changes
+:q! Quits (Exits) without saving changes
+ZZ Writes (Saves) the file and exits VI (same as :wq)
