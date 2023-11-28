@@ -1,0 +1,6 @@
+procese:
+
+ps aux -> lista procese
+top -> real time processes (~= task manager)
+htop  -> more friendly ui
+kill -9 <process id>

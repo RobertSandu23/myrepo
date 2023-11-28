@@ -1,0 +1,13 @@
+on desktop created new training.txt file:
+
+    change owner of file : sudo chown root:root training.txt
+    change permision of file : sudo chmod -r training.txt -> ia permisiunea de read (daca dai cat pe txt nu te lasa (decat cu sudo))
+    
+
+    rsandu@Ubuntu2204:~/Desktop$ vim print.sh
+    rsandu@Ubuntu2204:~/Desktop$ cat print.sh
+    #!/bin/bash
+
+    echo "Training"
+    change permision : chmod 753 training.txt -> rwx-rw--r--
+    rulare : ./print.sh
