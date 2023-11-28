@@ -6,20 +6,60 @@ ls , ls -a, ls -all, ll -> list dirs files etc
 pwd -> show path
 cat/less -> read files
 vi -> edit files
+rm -r --> will recursively delete a directory and all its contents (normally rm will not delete directories, while rmdir will only delete empty directories).
+rm -f --> will forcibly delete files without asking; this is mostly useful if you have rm aliased to ``rm -i'' but want to delete lots of files without confirming each one.
+rm -rf --> both
+
+
+ll | grep <keyword>
 
 in home dir : cd ../..  -> root 
 
 
+    vim bashrc -> modificare bashrc 
+    adaugam alias
+        exemplu : alias lss='ls -la'
+        exit vim
+    update fisier : source .bashrc
 
 
+    cd bin, ll  --> we find ssh, ssh_keygen, source. systemctl etc
 
 
+    cd dev -> toate device urile atasate os-ului sau laptopului
+        dmesg -> show logs on a port (ex usb care intra in pc)
 
 
+    cd etc -> serivces and driver
+        cd systemd/system , ll -> serviciile care ruleaza sau pot rula pe acest os
+    
+
+    cd lib -> equal to .dll of windwos
+
+automate : in systemctl (more info online)
 
 
+on desktop created new training.txt file:
+
+    change owner of file : sudo chown root:root training.txt
+    change permision of file : sudo chmod -r training.txt -> ia permisiunea de read (daca dai cat pe txt nu te lasa (decat cu sudo))
+    
+
+    rsandu@Ubuntu2204:~/Desktop$ vim print.sh
+    rsandu@Ubuntu2204:~/Desktop$ cat print.sh
+    #!/bin/bash
+
+    echo "Training"
+    change permision : chmod 753 training.txt -> rwx-rw--r--
+    rulare : ./print.sh
 
 
+procese:
+
+ps aux -> lista procese
+top -> real time processes (~= task manager)
+htop  -> more friendly ui
+kill -9 <process id>
 
 
 
