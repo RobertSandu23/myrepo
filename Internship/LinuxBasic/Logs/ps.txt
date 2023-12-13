@@ -1,4 +1,6 @@
 procese:
+https://www.cyberciti.biz/faq/unix-linux-killall-command-examples-usage-syntax/
+
 
 ps aux -> lista procese
 top -> real time processes (~= task manager)

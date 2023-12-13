@@ -1,10 +1,7 @@
-Hello World!
+Hello World
 
-Steps to create Hello World:
-
+Steps to write Hello World!
 1. touch helloworld.txt
-2. vi helloworld.txt
-3. i - to insert
-4. write Hello World!
-5. ESC - to edit insert mode
-6. :wq! - to exit vi editor
+2. echo "Hello World" > helloworld.txt
+
+Add the guide : echo -e "\nSteps to write Hello World!\n1. touch helloworld.txt\n2. echo Hello World" >> helloworld.txt
