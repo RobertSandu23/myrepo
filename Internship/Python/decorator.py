@@ -76,13 +76,12 @@ def process_cnp(cnp):
         result["gender"] = "F"
     else:
         result["gender"] = "M"
-    #same method for every key that has to represent "place"
+    #same method for every key that has to represent "place" or "month"
     
     if validate_cnp(cnp):
         print("\n===CNP RESULT===\n")
         for key, value in result.items():
-            if key != "valid":
-                print(f"{key}: {value}")
+            print(f"{key}: {value}")
     else:
         print("Invalid CNP!")
 
