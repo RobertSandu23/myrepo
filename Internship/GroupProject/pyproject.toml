@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "restapp"
+version = "0.1.0"
+description = ""
+authors = ["rsandu <rsandu@Ubuntu2204.myguest.virtualbox.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "0.75.2"
+uvicorn = "0.17.6"
+aiofiles = "^23.2.1"
+python-multipart = "^0.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
